@@ -434,7 +434,7 @@ def main():
 
     with st.sidebar:
         try:
-            img = Image.open(r"D:\My_Project\HealthKartDashboard\Assets\LOGO.png")
+            img = Image.open("Assets/LOGO.png")
             st.image(img, caption="🧪 Test Image", width=200)
         except Exception as e:
             st.error(f"Image load error: {e}")
