@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 import random
 import uuid
 
+# ✅ First Streamlit command
 st.set_page_config(page_title="HealthKart Dashboard", layout="wide")
 st.title("📊 HealthKart Influencer Dashboard")
 
