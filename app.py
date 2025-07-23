@@ -42,12 +42,12 @@ else:
     st.info("⬆️ Please upload a CSV file to get started.")
 
 # Set page config
-st.set_page_config(
-    page_title="HealthKart Influencer Dashboard",
-    page_icon="💪",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+#st.set_page_config(
+#    page_title="HealthKart Influencer Dashboard",
+#    page_icon="💪",
+#    layout="wide",
+#    initial_sidebar_state="expanded"
+#)
 
 # Function to generate synthetic data
 def generate_synthetic_data(seed=42):
